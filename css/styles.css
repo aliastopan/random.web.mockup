@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body, head{
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+._debug{
+    background-color: greenyellow;
+    width: 100%;
+    height: 100%;
+}
+
+._page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+._brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+._main-brand{
+    font-weight: 900;
+    font-size: 2.25rem;
+    height: 2.8rem;
+    letter-spacing: 1px;
+}
+
+._sub-brand{
+    font-size: 0.85rem;
+    font-weight: 300;
+    letter-spacing: 12px;
+    padding-left: 12px;
+}
+
+._date{
+    /* background-color: red; */
+    font-weight: 500;
+}
+._card-current{
+    margin-top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    color: black;
+    height: 10rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+._card-content-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+._pot{
+    font-weight: 600;
+}
+
+._box{
+    /* background: red; */
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+._detail-box{
+    margin-top: 1rem;
+    /* background-color: red; */
+    border: 1px solid grey;
+
+    width: 24rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+._card-detail{
+    /* background-color: blue; */
+    margin: 0.5rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    border: 1px solid grey;
+}
+
+._time{
+    font-size: 1.25rem;
+    padding: 0 0.25rem;
+    font-weight: 500;
+}
+
+._card-stack{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+._card-stack-inner{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
